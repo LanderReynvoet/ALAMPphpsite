@@ -1,3 +1,6 @@
+<?php
+    $PATH = "/home/USER/PROJECTNAME";
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -52,13 +55,13 @@
             <h2>This is only the beginning of your journey</h2>
             <p>
                 Ofcourse this is not the site you want. You may want to adjust it to your own needs. <br>
-                To do this you can change the files in the <b>/home/USER/PROJECTNAME</b>folder the script made for you. You will see a couple of files in there already. These files are just this site to get you started. You can delete these at any point.
+                To do this you can change the files in the <b><?php echo $PATH ?></b>folder the script made for you. You will see a couple of files in there already. These files are just this site to get you started. You can delete these at any point.
             </p>
         </article>
     </main>
     <footer>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="packages.html">Packages installed</a></li>
             <li><a href="authors.html">Authors</a></li>
         </ul>
