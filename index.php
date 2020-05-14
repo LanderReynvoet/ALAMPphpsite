@@ -56,8 +56,10 @@
             <p>
                 Ofcourse this is not the site you want. You may want to adjust it to your own needs. <br>
                 To do this you can change the files in the <b><?php echo $PATH ?></b>folder the script made for you. You will see a couple of files in there already. These files are just this site to get you started. You can delete these at any point.
+                We also recommend changing your password of MySQL & PHPMyAdmin since it went through the entire script. To do this you can go to your site ( http://YOUR_IP/phpmyadmin ) and login with the default or chosen password.
             </p>
         </article>
+
     </main>
     <footer>
         <ul>
