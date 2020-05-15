@@ -41,7 +41,7 @@
                 Running the script did a couple of things. We started of by updating and upgrading the packages you had using <b>apt update and apt upgrade</b>, we recommend you run these commands before installing any new packages.
                 When the updates and upgrades were done we started installing the necessary packages ( see footer for more information ).
                 Afterwards we made a user for you with the credentials you gave us.
-                We then set up a ssl certificate and disabled the default conf for security reasons. To finnish it up we did some editing of the apache config files so you can connect to your site.
+                We then set up a ssl certificate and disabled the default conf for security reasons. To finish it up we did some editing of the apache config files so you can connect to your site.
 
             </p>
         </article>
@@ -56,7 +56,7 @@
             <p>
                 Ofcourse this is not the site you want. You may want to adjust it to your own needs. <br>
                 To do this you can change the files in the <b><?php echo $PATH ?></b>folder the script made for you. You will see a couple of files in there already. These files are just this site to get you started. You can delete these at any point.
-                We also recommend changing your password of MySQL & PHPMyAdmin since it went through the entire script. To do this you can go to your site ( http://YOUR_IP/phpmyadmin ) and login with the default or chosen password.
+                We also recommend changing your password of MySQL & PHPMyAdmin since it went through the entire script. To do this you can go to your site ( https://YOUR_IP/phpmyadmin ) and login with the default or chosen password.
             </p>
         </article>
 
