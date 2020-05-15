@@ -18,7 +18,7 @@
     </header>
     <main>
         <article>
-            <h1>You did great!</h1>
+            <h2>You did great!</h2>
             <p>
                 You've followed the steps of our tutorial perfectly if you read this. Let's go over what you've learned.
             </p>
